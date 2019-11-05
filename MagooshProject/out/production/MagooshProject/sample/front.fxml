@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.frontController">
+   <children>
+      <Button fx:id="ems" layoutX="425.0" layoutY="261.0" mnemonicParsing="false" onAction="#emsClicked" text="Expected Math Score" textFill="#17791b" />
+      <Button fx:id="tutoringId" layoutX="425.0" layoutY="416.0" mnemonicParsing="false" onAction="#tutoringClicked" text="Tutoring History" textFill="#328321" />
+      <TextField fx:id="textField1" layoutX="41.0" layoutY="361.0" onAction="#goClicked" promptText="Enter email" />
+      <Button fx:id="button" layoutX="55.0" layoutY="441.0" mnemonicParsing="false" onAction="#goClicked" prefHeight="25.0" prefWidth="99.0" text="Login" textFill="#23832f" />
+      <TextField fx:id="textField2" layoutX="41.0" layoutY="395.0" onAction="#goClicked" promptText="Enter Password" />
+      <Button fx:id="Lessons" layoutX="247.0" layoutY="311.0" mnemonicParsing="false" onAction="#lessonsClicked" text="Lesson Query" textFill="#118615" />
+      <Button fx:id="notesId" layoutX="427.0" layoutY="466.0" mnemonicParsing="false" onAction="#notesClicked" text="Question Notes" textFill="#1d8622" />
+      <Button fx:id="answer" layoutX="428.0" layoutY="365.0" mnemonicParsing="false" onAction="#answerClicked" text="Answers By Student" textFill="#17791b" />
+      <ImageView fitHeight="50.0" fitWidth="258.0" layoutX="478.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@magoosh1.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="lessonnote" layoutX="433.0" layoutY="518.0" mnemonicParsing="false" onAction="#notes2Clicked" text="Lesson Notes" textFill="#1d8622" />
+      <TextArea layoutX="218.0" layoutY="132.0" prefHeight="65.0" prefWidth="160.0" text="Simple Queries">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </TextArea>
+      <TextArea layoutX="628.0" layoutY="134.0" prefHeight="56.0" prefWidth="134.0" text=" Functions">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </TextArea>
+      <TextArea layoutX="408.0" layoutY="133.0" prefHeight="62.0" prefWidth="180.0" text="Complex Queries">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </TextArea>
+      <TextArea layoutX="811.0" layoutY="134.0" prefHeight="65.0" prefWidth="180.0" text="        Triggers" wrapText="true">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </TextArea>
+      <Button fx:id="avt" layoutX="635.0" layoutY="324.0" mnemonicParsing="false" onAction="#avtClicked" prefHeight="25.0" prefWidth="99.0" text="Average Time" textFill="#097c07" />
+      <Button fx:id="avs" layoutX="635.0" layoutY="378.0" mnemonicParsing="false" onAction="#avsClicked" prefHeight="25.0" prefWidth="99.0" text="Average Score" textFill="#097c07" />
+      <Button fx:id="vr" layoutX="635.0" layoutY="441.0" mnemonicParsing="false" onAction="#vrClicked" prefHeight="25.0" prefWidth="99.0" text="Video Rating" textFill="#097c07" />
+      <Button fx:id="exp" layoutX="635.0" layoutY="261.0" mnemonicParsing="false" onAction="#expClicked" prefHeight="25.0" prefWidth="99.0" text="Expected Score" textFill="#097c07" />
+      <Button fx:id="rating" layoutX="811.0" layoutY="324.0" mnemonicParsing="false" onAction="#ratingClicked" prefHeight="25.0" prefWidth="149.0" text="Update Video Rating" textFill="#097c07" />
+      <Button fx:id="nst" layoutX="244.0" layoutY="261.0" mnemonicParsing="false" onAction="#nstClicked" prefHeight="25.0" prefWidth="99.0" text="No. of Students" textFill="#23832f" />
+      <Button fx:id="tutor" layoutX="251.0" layoutY="441.0" mnemonicParsing="false" onAction="#tutorClicked" text="Tutor Query" textFill="#118615" />
+      <Button fx:id="hma" layoutX="244.0" layoutY="361.0" mnemonicParsing="false" onAction="#hmaClicked" text="No. of Answers" textFill="#118615" />
+      <Button fx:id="correctAns" layoutX="248.0" layoutY="400.0" mnemonicParsing="false" onAction="#corrAnsClicked" text="No. of Correct Answer" textFill="#118615" />
+      <Button fx:id="student" layoutX="248.0" layoutY="481.0" mnemonicParsing="false" onAction="#studentClicked" prefHeight="25.0" prefWidth="99.0" text="Student Query" textFill="#118615" />
+      <Button fx:id="gres" layoutX="248.0" layoutY="522.0" mnemonicParsing="false" onAction="#gresClicked" text="GRE Scores " textFill="#118615" />
+      <Button fx:id="evs" layoutX="425.0" layoutY="309.0" mnemonicParsing="false" onAction="#evsClicked" text="Expected Verbal Score" textFill="#17791b" />
+      <Button fx:id="delst" layoutX="811.0" layoutY="263.0" mnemonicParsing="false" onAction="#delstClicked" prefHeight="25.0" prefWidth="174.0" text="Delete Student -&gt; Tutoring" textFill="#097c07" />
+      <TextField fx:id="std" layoutX="1007.0" layoutY="263.0" onAction="#delstClicked" prefHeight="25.0" prefWidth="40.0" />
+   </children>
+</Pane>

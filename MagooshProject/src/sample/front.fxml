@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.frontController">
+   <children>
+      <Button fx:id="ems" layoutX="425.0" layoutY="269.0" mnemonicParsing="false" onAction="#emsClicked" style="-fx-background-color: #429365;" text="Expected Math Score" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button fx:id="tutoringId" layoutX="425.0" layoutY="424.0" mnemonicParsing="false" onAction="#tutoringClicked" style="-fx-background-color: #429365;" text="Tutoring History" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <TextField fx:id="textField1" layoutX="41.0" layoutY="369.0" onAction="#goClicked" promptText="Enter email" />
+      <Button fx:id="button" layoutX="55.0" layoutY="449.0" mnemonicParsing="false" onAction="#goClicked" prefHeight="25.0" prefWidth="99.0" text="Login Query" textFill="#23832f">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <TextField fx:id="textField2" layoutX="41.0" layoutY="403.0" onAction="#goClicked" promptText="Enter password" />
+      <Button fx:id="Lessons" layoutX="222.0" layoutY="319.0" mnemonicParsing="false" onAction="#lessonsClicked" prefHeight="30.0" prefWidth="128.0" style="-fx-background-color: #429365;" text="Lesson Query" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button fx:id="notesId" layoutX="427.0" layoutY="474.0" mnemonicParsing="false" onAction="#notesClicked" style="-fx-background-color: #429365;" text="Question Notes" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button fx:id="answer" layoutX="428.0" layoutY="373.0" mnemonicParsing="false" onAction="#answerClicked" style="-fx-background-color: #429365;" text="Answers By Student" textFill="#f8f8f8">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <ImageView fitHeight="59.0" fitWidth="225.0" layoutX="474.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@magoosh1.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="lessonnote" layoutX="427.0" layoutY="522.0" mnemonicParsing="false" onAction="#notes2Clicked" style="-fx-background-color: #429365;" text="Lesson Notes" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <TextArea layoutX="218.0" layoutY="140.0" prefHeight="59.0" prefWidth="149.0" text=" Simple Queries" wrapText="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </TextArea>
+      <TextArea layoutX="628.0" layoutY="142.0" prefHeight="34.0" prefWidth="134.0" text="   Functions">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </TextArea>
+      <TextArea layoutX="408.0" layoutY="141.0" prefHeight="39.0" prefWidth="174.0" text=" Complex Queries">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </TextArea>
+      <TextArea layoutX="811.0" layoutY="142.0" prefHeight="50.0" prefWidth="180.0" text="         Triggers" wrapText="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </TextArea>
+      <Button fx:id="avt" layoutX="635.0" layoutY="334.0" mnemonicParsing="false" onAction="#avtClicked" prefHeight="30.0" prefWidth="117.0" style="-fx-background-color: #429365;" text="Average Time" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button fx:id="avs" layoutX="635.0" layoutY="394.0" mnemonicParsing="false" onAction="#avsClicked" prefHeight="30.0" prefWidth="117.0" style="-fx-background-color: #429365;" text="Average Score" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button fx:id="vr" layoutX="635.0" layoutY="452.0" mnemonicParsing="false" onAction="#vrClicked" prefHeight="30.0" prefWidth="110.0" style="-fx-background-color: #429365;" text="Video Rating" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button fx:id="exp" layoutX="635.0" layoutY="269.0" mnemonicParsing="false" onAction="#expClicked" prefHeight="30.0" prefWidth="117.0" style="-fx-background-color: #429365;" text="Expected Score" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button fx:id="rating" layoutX="811.0" layoutY="332.0" mnemonicParsing="false" onAction="#ratingClicked" prefHeight="25.0" prefWidth="149.0" style="-fx-background-color: #429365;" text="Update Video Rating" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button fx:id="nst" layoutX="222.0" layoutY="269.0" mnemonicParsing="false" onAction="#nstClicked" prefHeight="30.0" prefWidth="121.0" style="-fx-background-color: #429365;" text="No. of Students" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button fx:id="tutor" layoutX="226.0" layoutY="462.0" mnemonicParsing="false" onAction="#tutorClicked" style="-fx-background-color: #429365;" text="Tutor Query" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button fx:id="hma" layoutX="222.0" layoutY="367.0" mnemonicParsing="false" onAction="#hmaClicked" prefHeight="30.0" prefWidth="121.0" style="-fx-background-color: #429365;" text="No. of Answers" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button fx:id="correctAns" layoutX="226.0" layoutY="416.0" mnemonicParsing="false" onAction="#corrAnsClicked" style="-fx-background-color: #429365;" text="No. of Correct Answers" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button fx:id="student" layoutX="226.0" layoutY="507.0" mnemonicParsing="false" onAction="#studentClicked" prefHeight="30.0" prefWidth="121.0" style="-fx-background-color: #429365;" text="Student Query" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button fx:id="gres" layoutX="226.0" layoutY="551.0" mnemonicParsing="false" onAction="#gresClicked" style="-fx-background-color: #429365;" text="GRE Scores " textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button fx:id="evs" layoutX="425.0" layoutY="317.0" mnemonicParsing="false" onAction="#evsClicked" style="-fx-background-color: #429365;" text="Expected Verbal Score" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button fx:id="delst" layoutX="811.0" layoutY="271.0" mnemonicParsing="false" onAction="#delstClicked" prefHeight="30.0" prefWidth="121.0" style="-fx-background-color: #429365;" text="Delete Student " textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <TextField fx:id="std" layoutX="951.0" layoutY="269.0" onAction="#delstClicked" prefHeight="30.0" prefWidth="40.0" promptText="ID" />
+   </children>
+</Pane>
